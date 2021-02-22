@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<persistence version="2.1" xmlns="http://xmlns.jcp.org/xml/ns/persistence" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/persistence http://xmlns.jcp.org/xml/ns/persistence/persistence_2_1.xsd">
+	<persistence-unit name="kafkadss">
+		<class>com.app.kafka.model.MatchInfoNew</class>
+		<class>com.app.kafka.model.MatchLeagueNew</class>
+		<class>com.app.kafka.model.MatchMemberNew</class>
+		<class>com.app.kafka.model.MatchNew</class>
+		
+		<properties>
+             <property name = "eclipselink.logging.level" value = "FINE"/>
+	         <property name = "eclipselink.ddl-generation" value="create-tables"/>
+	         
+            <property name="javax.persistence.jdbc.driver" value="org.postgresql.Driver"/>
+            <property name="javax.persistence.jdbc.url" value="jdbc:postgresql://10.7.1.60:5432/manila?currentSchema=public"/>
+            <property name="javax.persistence.jdbc.user" value="postgres"/>
+            <property name="javax.persistence.jdbc.password" value="TrixStudio2018"/>
+            
+            <property name="hibernate.show_sql" value="false" />
+            <property name="hibernate.format_sql" value="true" />
+            
+            <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect" />
+            <property name="hibernate.default_schema" value="public" />
+       </properties>
+	</persistence-unit>
+</persistence>

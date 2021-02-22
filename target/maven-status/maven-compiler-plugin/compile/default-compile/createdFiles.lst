@@ -1,0 +1,14 @@
+com\app\main\KafkaMain.class
+com\app\kafka\consumer\KafkaIConsumer.class
+com\app\kafka\streams\CannotFindConnection.class
+com\app\kafka\respond\ProducerCreator.class
+com\app\kafka\streams\NumberFormatException.class
+com\app\kafka\consumer\ConsumerCreator.class
+com\app\kafka\respond\KafkaIProducer.class
+com\app\kafka\streams\InvokingUnknown.class
+com\app\kafka\streams\JavaLangNull.class
+com\app\kafka\requests\SoaRequest.class
+com\app\kafka\streams\MissingParameter.class
+com\app\kafka\streams\AdapterConnectionRefused.class
+com\app\kafka\streams\KafkaProcessor.class
+com\app\kafka\streams\SuccessTrx.class
